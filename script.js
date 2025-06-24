@@ -45,10 +45,10 @@ correctanswer.textContent = "Correct Answer: " + currentCountry;
 
 if (input === currentCountry) {
 currentScore += 1;
-score.textContent = "Score: " + score;
+score.textContent = "Score: " + currentScore;
 } else {
 currentScore = 0;
-score.textContent = "Score: " + score;
+score.textContent = "Score: " + currentScore;
 NewFlag();
 }
   
