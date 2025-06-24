@@ -40,7 +40,7 @@ let score = document.getElementById("score");
 let record = document.getElementById("record");
   
 youranswer.textContent = "Your Answer: " + input;
-correctanswer.textContent = "Correct ANswer: " + currentCountry;
+correctanswer.textContent = "Correct Answer: " + currentCountry;
 
 if (input === currentCountry) {
 score += 1;
