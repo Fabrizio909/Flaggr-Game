@@ -1,6 +1,7 @@
 
 
 let currentCountry = "";
+let currentScore = 0;
 
 const flags = [
 {country: "afghanistan", file: "afghanistan.png"},
@@ -43,10 +44,10 @@ youranswer.textContent = "Your Answer: " + input;
 correctanswer.textContent = "Correct Answer: " + currentCountry;
 
 if (input === currentCountry) {
-score += 1;
+currentScore += 1;
 score.textContent = "Score: " + score;
 } else {
-score = 0;
+currentScore = 0;
 score.textContent = "Score: " + score;
 NewFlag();
 }
